@@ -21,7 +21,7 @@ loop_start:
 	add t1 t1 a0
 	lw t2 0(t1)
 	beq t0 a1 loop_end
-    addi t0 t0 1
+        addi t0 t0 1
 	blt t3 t2 loop_continue
 	j loop_start
 
