@@ -3,8 +3,8 @@
 
 # Set vector values for testing
 .data
-vector0: .word 1 2 3 4 5
-vector1: .word 1 2 3 4 5
+vector0: .word 1 2 3 4 5 6
+vector1: .word 1 2 3 4 5 6
 
 
 .text
@@ -15,7 +15,7 @@ main:
     la s1 vector1
 
     # Set vector attributes
-    li s2 9
+    li s2 6
     li s3 1
     li s4 1
 
