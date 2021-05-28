@@ -23,7 +23,8 @@ loop_start:
 	slli t2 t1 2
 	add t3 t2 a0
 	add t1 t0 t1
-	beq t1 a1 loop_end
+    addi t5 t1 -1
+    beq t5 a1 loop_end
 	lw t4 0(t3)
 	blt t4 x0 loop_continue
 	j loop_start
