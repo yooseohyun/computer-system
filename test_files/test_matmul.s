@@ -4,8 +4,8 @@
 
 # static values for testing
 .data
-m0: .word 1 3 5 7 9 11 13 15 17
-m1: .word 6 15 24                         
+m0: .word 1 3 7 6 4 5 11 23 2
+m1: .word 6 3 5                         
 d: .word 0 0 0 0 0 0 0 0 0 # allocate static space for output
 
 .text
